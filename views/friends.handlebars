@@ -1,0 +1,18 @@
+
+
+<table class="table">
+						<thead>
+								<th>Name</th>
+								<th>Photo</th>
+								<th>Scores</th>
+						</thead>
+						<tbody id="users">
+							{{#each variable}}
+							<tr>
+								<td>{{name}}</td>
+									<td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src={{photo}} alt="Smiley face" height="50" width="50"> </td>
+									<td>{{scores}}</td>
+							</tr>
+								{{/each}}
+						</tbody>
+</table>
